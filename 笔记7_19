@@ -1,0 +1,1 @@
+### 继承```UGameInstance```来编写整个游戏范围的逻辑，因为Level切换时，不会影响到UGameInstance。
