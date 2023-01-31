@@ -1,0 +1,1 @@
+ctrl + alt + V 粘贴图片到markdown ，需下载 Paste Image 插件
