@@ -1,0 +1,101 @@
+{
+    "Type":"0",
+    "ProjectList" : 
+    {
+        "0":
+        {
+            "UMGPath":"/EditorShare/UI/Blueprints/paramBlueprints/ArrayWidget.ArrayWidget_C"
+        },
+        "1":
+        {
+            "UMGPath":"/EditorShare/UI/Blueprints/FaceChangeGroup.FaceChangeGroup_C"
+        }
+        
+    }
+ }
+
+
+ ""Type"":""0""
+ ""ProjectList"" : 
+ {
+     ""0"":
+     {
+         ""UMGPath"":""/EditorShare/UI/Blueprints/paramBlueprints/ArrayWidget.ArrayWidget_C""
+     }
+     ""1"":
+     {
+         ""UMGPath"":""/EditorShare/UI/Blueprints/paramBlueprints/PropertyGroupArrayWidget.PropertyGroupArrayWidget_C"
+     }
+     
+ }
+}"
+
+
+
+"{
+    ""Type"":""2"",
+    ""ProjectList"": 
+ {
+         ""0"":
+            {
+                ""UMGPath"":30000029,
+                ""WhiteList"":
+                [             
+                ],
+                ""BlackList"":
+                [
+                ],
+                ""Config"":
+                {
+                    ""properties"":
+                    {
+                        ""Name"":""0"" 
+                    },""PropGroups"":{""Name"":""0""}
+                }
+            }
+    }
+}"
+
+
+FPropertiesGroup	"{
+    ""Type"":""2"",
+    ""ProjectList"": 
+ {
+         ""0"":
+            {
+                ""UMGPath"":""/EditorShare/UI/Blueprints/paramBlueprints/BaseObjectWidget.BaseObjectWidget_C"",
+                ""WhiteList"":
+                [             
+                ],
+                ""BlackList"":
+                [
+                ],
+                ""Config"":
+                {
+                    ""Properties"":
+                    {
+                        ""Name"":""1"" 
+                    }
+                }
+            }
+    }
+}"
+{
+    "Type":"0",
+    "ProjectList" : 
+    {
+        "0":
+        {
+            "UMGPath":30000028
+        },
+        "1":
+        {
+            "UMGPath":30000052
+        },
+        "2":
+        {
+            "UMGPath":30000054
+        }
+    }
+ }
+
