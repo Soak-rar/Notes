@@ -43,3 +43,12 @@ UWidget* panel = mainUI->GetWidget()->GetWidgetFromName(FName("MainViewPanel"));
     ![](img/2023-03-16-09-32-44.png)
 
 ### 控件的可视性
+
+### 控件事件触发 条件
+1. Slider 滑动条: OnValueChanged ，可以通过 滑动条触发，无法通过SetValue方法触发
+2. ComboBox 下拉菜单： FOnSelectionChangedEvent， 设置触发事件的条件
+   ![](img/2023-03-22-18-17-04.png)![](img/2023-03-22-18-17-19.png)
+
+### UserWidget 和 基础控件
+> UserWidget添加到父基础控件时，会重置 UserWidget中的基础控件的值为 面板默认值，需在添加前重新设置预期值
+
