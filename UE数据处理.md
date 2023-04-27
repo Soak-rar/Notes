@@ -12,3 +12,11 @@ FString fstr;
 std::string str = TCHAR_TO_UTF8(*fstr);
 
 ```
+
+### 字符串切分
+```C++
+FString SourceStr = "45,489, 489, 456, 15";
+TArray<FString> NewList;
+SourceStr.ParseIntoArray(NewList, TEXT(","), true); // 45  489  489  456  15
+
+```
