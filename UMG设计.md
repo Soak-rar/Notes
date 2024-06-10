@@ -52,3 +52,11 @@ UWidget* panel = mainUI->GetWidget()->GetWidgetFromName(FName("MainViewPanel"));
 ### UserWidget 和 基础控件
 > UserWidget添加到父基础控件时，会重置 UserWidget中的基础控件的值为 面板默认值，需在添加前重新设置预期值
 
+
+## slate 的渲染
+借助RHI硬件绘制接口进行绘制
+
+1. 将控件对象转换为需要绘制的图形面片
+2. 通过 PixelShader和VertexShader使用GPU进行绘制
+
+##
